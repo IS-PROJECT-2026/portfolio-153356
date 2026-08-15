@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectGrid = document.getElementById("project-grid");
 
     // Fetch the project data from the JSON file
-    fetch("projects.json")
+    fetch("project.json")
         .then(response => response.json())
         .then(data => {
             data.forEach(project => {
