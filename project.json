@@ -1,0 +1,26 @@
+[{
+        "title": "AI Recommendation System for Children",
+        "category": "Academic Project",
+        "description": "A content-based filtering system developed to recommend age-appropriate activities. Built using React.js for the frontend and PostgreSQL for database management.",
+        "techStack": ["React.js", "PostgreSQL", "Machine Learning"]
+    },
+    {
+        "title": "Ecommerce Furniture Reselling Website",
+        "category": "Academic Project",
+        "description": "An ecommerce website that allows students to resell their furniture when they are ready to graduate or just to make some extra cash. ",
+        "techStack": ["React.js", "MySQL", "CSS", "Node.js"]
+    },
+
+    {
+        "title": "Ecommerce Mobile Application",
+        "category": "Academic Project",
+        "description": "Developed an android studio mobile app for a more accessible and portable furniture reselling platform'",
+        "techStack": ["Android Studio", "Kotlin", "Java"]
+    },
+    
+    {    "title": "UiPath Converter",
+        "category": "Internship Project",
+        "description": "Developed a converter bot using Uipath to convert files to different formats.",
+        "techStack": ["UiPath", "PostgreSQL"]
+    }
+]
