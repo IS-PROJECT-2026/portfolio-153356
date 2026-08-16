@@ -2,7 +2,7 @@
 
 ## 1. Student Details
 
-- **Full Name:**  Joan Mokami Gichana
+- **Full Name:**  Joan Gichana
 - **GitHub Username:** jgichana
 - **Email:** gichana.joan@gmail.com
 
