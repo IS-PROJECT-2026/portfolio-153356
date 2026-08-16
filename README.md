@@ -5,5 +5,5 @@ The portfolio can be used by hiring managers to gauge whether I have the right s
 It also provides a way for people to download my CV if they want further details.
 
 - Name: Joan Gichana
-- Github pages link: 
+- Github pages link: https://is-project-2026.github.io/portfolio-153356/
 - Technologies used: HTML, CSS, JavaScript
