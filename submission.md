@@ -10,7 +10,7 @@
 
 ## 2. Deployed Project Link
 
-- **Live GitHub Pages URL:** [Paste your live deployment link here]
+- **Live GitHub Pages URL:** (https://is-project-2026.github.io/portfolio-153356/)
   
 
 ---
@@ -104,7 +104,7 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 [PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
 
-* **Caption:** [Describe which two branches collided and the warning received]
+* **Caption:** the main branch and the docs/19-project-README branches conflicted
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 *Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
