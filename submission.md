@@ -25,29 +25,29 @@
 
 Paste the URL of the commit in your history that you think best demonstrates clean conventional commit practice (good type tag, clear subject, meaningful body or footer).
 
-- **Commit URL:** [Paste the full GitHub commit URL here]
-- **Why this one?** [1–2 sentences explaining what makes this commit well-structured]
+- **Commit URL:** https://github.com/IS-PROJECT-2026/portfolio-153356/commit/fd91de2ff4a74c2e7c2d6b1b65183d37cc450670
+- **Why this one?** This commit is well structured containing a type tag, a clear description in imperative tense and the footer containing the issue that it closes.
 
 ### B. A Mistake or Struggle
 
 Link to a commit, PR, or issue where something went wrong — a bad commit message you had to fix, a branch you had to delete and recreate, a PR that needed rework, or a deployment that broke. 
 
-- **Link to the evidence:** [Paste URL here]
-- **What happened and how did you recover?** [2–3 sentences]
+- **Link to the evidence:** (https://github.com/IS-PROJECT-2026/portfolio-153356/commit/48fc196c7e580a85745efdff4ef0671779b8c5d3)
+- **What happened and how did you recover?** The commit message was auto generated but I never confirmed to check if there was a type tag. I had to edit the commit message to include the type tag 'docs'.
 
 ### C. A Pull Request You're Proud Of
 
 Paste the URL of the PR that best shows your self-review process — one where the description is clear, the issue linkage is correct, and the diff tells a coherent story.
 
-- **PR URL:** [Paste the full GitHub PR URL here]
+- **PR URL:** 
 - **What did you check before merging?** [1–2 sentences on what you reviewed]
 
 ### D. One Thing You Would Do Differently
 
 If you had to restart this project from scratch with everything you know now, name one specific workflow decision you would change (not a code change — a Git/project management decision).
 
-- **What would you change?** [1–2 sentences]
-- **Link to the evidence of the original decision:** [Paste URL to the commit, branch, or issue that shows the decision you'd redo]
+- **What would you change?** At the very beginning of the project I initialized the empty project files in the main branch without creating issues for them. I realised this quite late and since there was no way to undo it, it had to stay that way. In the next project for sure, nothing will be committed to the main branch regardless of whether or not the files have code or not.
+- **Link to the evidence of the original decision:** (https://github.com/IS-PROJECT-2026/portfolio-153356/commit/109712f11992c0159077701cc376b06fc61f93d5)
 
 ---
 
@@ -60,30 +60,34 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### A. Milestones and Issues
 *Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
+<img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/8e56948f-4a69-4855-9f88-dc2a2b5ace41" />
+<img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/73debf07-2a07-43b6-b565-7a0d75527b47" />
 
-* **Caption:** [Write a brief sentence describing your milestones here]
+
+* **Caption:** My milestones break down the main tasks I need to do into modules that can be tackled separately. 
 
 ### B. Project Board
 *Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/667cf10b-8ae3-432a-960e-8c4506e76775" />
 
 * **Caption:** [Write a brief sentence describing your board state here]
 
 ### C. Branching Architecture
 *Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
 
-[PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
+<img width="1919" height="983" alt="image" src="https://github.com/user-attachments/assets/78fe4f00-7934-4067-9828-7e801acbc942" />
 
 * **Caption:** [Write a brief sentence describing your branch list here]
 
 ### D. Pull Requests & Traceability
 *Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
-[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/38da88e7-c388-4d50-9bab-b5c9ae746520" />
 
-* **Caption:** [Write a brief sentence describing your PR and what issue it closes]
+* **Caption:** The pull request add JavaScript functionality to the portfolio by merging the index.js file into main. It closes the issue number 13 as seen in the 
+screenshot below;
+<img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/a82f8c28-f6ad-49d1-9d13-dff3ab2256b3" />
 
 ---
 
@@ -97,28 +101,28 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 ### Conflict 1 — Full Chronology
 
-**What cause did you use?** [Name the type of conflict cause from the lecture]
+**What cause did you use?** Modifying the contents of the same file from different branches
 
 #### Step 1: Generating the Clash
 *Screenshot showing the merge attempt and the conflict warning.*
 
-[PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
+<img width="1083" height="306" alt="Screenshot 2026-08-16 154939" src="https://github.com/user-attachments/assets/a3370841-5bb5-4764-a6a7-30ad5299bec6" />
 
 * **Caption:** the main branch and the docs/19-project-README branches conflicted
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 *Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
 
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
+<img width="1606" height="466" alt="Screenshot 2026-08-16 154737" src="https://github.com/user-attachments/assets/ad556136-6052-4671-a368-29938e9d31b7" />
 
 * **Caption:** [Explain what caused the dispute and your reasoning for the final version]
 
 #### Step 3: Resolution & Clean Merge
 *Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
-[PASTE SCREENSHOT OF CLEAN RESOLUTION HERE]
+<img width="1083" height="291" alt="Screenshot 2026-08-16 1549" src="https://github.com/user-attachments/assets/2bdf5d25-43f8-43b0-8a45-77928bb6023a" />
 
-* **Caption:** [Describe the final state after resolution]
+* **Caption:** I accepted the incoming change and the result was the corrected contents of README file.
 
 ---
 
