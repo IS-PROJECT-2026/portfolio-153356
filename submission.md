@@ -39,8 +39,8 @@ Link to a commit, PR, or issue where something went wrong — a bad commit messa
 
 Paste the URL of the PR that best shows your self-review process — one where the description is clear, the issue linkage is correct, and the diff tells a coherent story.
 
-- **PR URL:** 
-- **What did you check before merging?** [1–2 sentences on what you reviewed]
+- **PR URL:** https://github.com/IS-PROJECT-2026/portfolio-153356/pull/11
+- **What did you check before merging?** Since the json file on Github was originally empty, I only needed to review the code and ensure it was accurate before committing it to git and merging it to the main branch.
 
 ### D. One Thing You Would Do Differently
 
@@ -58,13 +58,13 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 > **CRITICAL FOR WORKING IMAGES:** Do not type manual folder paths. Edit this file directly on the GitHub web interface, click on the blank line below each prompt, and **paste (Ctrl+V / Cmd+V)** your screenshot. GitHub will automatically upload the file and generate a permanent, working image link for you.
 
 ### A. Milestones and Issues
-*Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
 <img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/8e56948f-4a69-4855-9f88-dc2a2b5ace41" />
+* **Caption:** open milestones
 <img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/73debf07-2a07-43b6-b565-7a0d75527b47" />
+* **Caption:** closed milestone
 
-
-* **Caption:** My milestones break down the main tasks I need to do into modules that can be tackled separately. 
+* **Caption:** My milestones break down the main tasks I need to do into modules that can be tackled separately. The HTML structure milestone ensures that the skeleton of the portfolio is defined, before the styling milestone with issues to ensure the portfolio looks attractive, the JavaScript milestone ensures that there is some interactivity added to the portfolio and lastly are the Markdown files milestones that are to be completed before submission of the repo.
 
 ### B. Project Board
 *Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
@@ -101,7 +101,7 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 ### Conflict 1 — Full Chronology
 
-**What cause did you use?** Modifying the contents of the same file from different branches
+**What cause did you use?** Add/Add conflict, where two files with the same name have different content/ code.
 
 #### Step 1: Generating the Clash
 *Screenshot showing the merge attempt and the conflict warning.*
@@ -115,38 +115,41 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 <img width="1606" height="466" alt="Screenshot 2026-08-16 154737" src="https://github.com/user-attachments/assets/ad556136-6052-4671-a368-29938e9d31b7" />
 
-* **Caption:** [Explain what caused the dispute and your reasoning for the final version]
+* **Caption:** the README.md file in the main branch had the submission.md code while the docs/19-project-README branch was introducing entirely different code with the project description, devloper name, github pages link and tech stack used. Resolving the conflict was straight forward since I only needed to accept the changes from the docs/19-project-README file and ignore what the file in the main branch had.
 
 #### Step 3: Resolution & Clean Merge
 *Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
 <img width="1083" height="291" alt="Screenshot 2026-08-16 1549" src="https://github.com/user-attachments/assets/2bdf5d25-43f8-43b0-8a45-77928bb6023a" />
 
-* **Caption:** I accepted the incoming change and the result was the corrected contents of README file.
+* **Caption:** I accepted the incoming change from the docs/19-project-README branch and the result was the corrected contents of README file.
 
 ---
 
 ### Conflict 2 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflict 1]
+**What cause did you use?** Same line edit by different branches
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** 2 different branches modified the same line in the same file with different content would cause a conflict since git would have to ask the user which version of the code to keep and which to discard since it cannot store both instances in the same file.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 2 HERE]
+<img width="1618" height="511" alt="Screenshot 2026-08-17 004146" src="https://github.com/user-attachments/assets/376c9f7d-b95e-4ec9-a643-ba681fd7d6bf" />
 
-* **Caption:** [Brief description of the conflicting branches and file]
+* **Caption:** The conflicting branches are docs/7-submission-README-file and docs/19-project-README that are modifying the README.md file line 7.
 
 ---
 
 ### Conflict 3 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflicts 1 and 2]
+**What cause did you use?** Modify/Delete conflict where one branch modifies a file that had been deleted in another branch.
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** When git tries to merge the changes into main it does not know whether to keep the file deleted or to accept the file modifications provided by the other branch.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 3 HERE]
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/b3e25411-976d-462f-9a94-83d7b7b5f8dd" />
 
-* **Caption:** [Brief description of the conflicting branches and file]
+
+* **Caption:** In this example there are two branches conflict/23-modify-file which creates the target file and commits it, and the conflict/delete-file branch which is trying to delete the target file. The conflict is resolved by specifying which action to proceed with then committing. I chose git rm to delete the file and committed that command.
+* <img width="1130" height="97" alt="image" src="https://github.com/user-attachments/assets/1516bbdc-6e32-4158-ad71-e5e412598fc4" />
+
 
 ---
 ##
